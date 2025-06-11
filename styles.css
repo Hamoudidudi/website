@@ -72,3 +72,28 @@ footer {
   color: #444;
   font-size: 0.9rem;
 }
+
+
+
+/* Farbänderung nur für works.html */
+body.works-page {
+  background: #111827; /* dunkler Hintergrund */
+  color: #f9fafb;       /* helle Schrift */
+}
+
+body.works-page h2 {
+  color: #a78bfa; /* zartes Violett für Titel */
+}
+
+body.works-page .caption {
+  color: #d1d5db; /* hellgrauer Untertitel */
+}
+
+body.works-page .back-button {
+  background: #4b5563;
+  color: white;
+}
+
+body.works-page .back-button:hover {
+  background: #6b7280;
+}
